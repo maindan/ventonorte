@@ -5,20 +5,25 @@ main {
     align-items: center;
     justify-content: center;
 
-    padding: 100px;
+    
     font-family: 'Roboto', sans-serif;
     color: #354786;
 }
 
-#products-page {
+.products-page {
     display: grid;
     grid-template-columns: 250px 250px 250px;
     gap: 200px;
-    margin-top: 50px;
+    margin: 50px 0px 50px 0px;
+    width: 100%;
+    justify-content: center;
+    padding-right: 150px;
+    align-self: center;
 }
 
 .produtos-page {
     display: flex;
+    width: max-content;
     flex-direction: column;
     align-items: center;
     justify-content: center;
