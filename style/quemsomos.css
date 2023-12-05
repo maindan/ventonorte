@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 100px 300px;
+    gap: 40px;
+}
+
+main h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #354786;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+main img {
+    width: 800px;
+    border-radius: 20px;
+}
+
+#title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 100px;
+}
+
+#title h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #354786;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+main article {
+    font-family: 'Roboto', sans-serif;
+    color: #354786;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    gap: 20px;
+}
